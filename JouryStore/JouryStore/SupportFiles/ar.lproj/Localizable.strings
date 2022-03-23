@@ -1,0 +1,200 @@
+/* 
+  Localizable.strings
+  JouryStore
+
+  Created by Rozan Skaik on 2/7/21.
+  Copyright © 2021 Rozan Skaik. All rights reserved.
+*/
+//MARK: COMMON
+"AddressStore" = "غزة, شارع خالد بن الوليد, متجر جوري للزهور والهدايا";
+
+"Skip" = "تخطي";
+"Search" = "بحث";
+"Choose Date" = "اختر التاريخ";
+"Choose" = "اختر";
+"Cancel" = "الغاء";
+"OK" = "نعم";
+"Do you need to logout?" =  "هل تريد تسجيل الخروج؟";
+"ConfirmPassword" = "الرجاء التأكد ان كلمة المرور متطابقة";
+"Number of Items" = "عدد العناصر: ";
+"Alert" = "تنبيه";
+"Success" = "نجاح";
+"Done" = "تم";
+
+"No Data To Show" = "لا يوجد بيانات لعرضها";
+"dateValidation" = "الرجاء اختيار التاريخ";
+"timeValidation" = "الرجاء اختيار الوقت";
+"Capture image"                                                                   = "إلتقاط صورة";
+"ChooseFromLibrary"                                                               = "إختر من المكتبة";
+"ChooseFromPhotoRoll"                                                             = "إختر من معرض الصور";
+"NoSources"                                                                       = "لا يوجد مصدر متاح لإختيار الصورة";
+"TakePhoto"                                                                       = "التقط صورة";
+
+"Note" = "ملاحظة";
+"TextFeildValidation"                                                             = "عذراً، حقل %@ مطلوب";
+ "MobileNumberInvalid"                                                             = "رقم المحمول غير صحيح";
+"In Progress" = "جاري التوصيل";
+"Delivered" = "تم التوصيل";
+"Please Add product to cart before" = "الرجاء اضافة منتجات الى السلة قبل الاتمام";
+
+
+//MARK: TutorialViewController
+"TutorialViewController.lblTitle.text" = "جوري";
+"TutorialViewController.lblDescription.text" = "تطبيق التسوق الإلكتروني يهتم ببيع الهدايا والزهور.";
+"TutorialViewController.lblDescription2.text" = "يسمح لأصحاب المتاجر بعرض منتجاتهم.";
+"TutorialViewController.lblDescription3.text" = "الزهور والهدايا والتسليم في أي وقت في أي مكان.";
+"TutorialViewController.btnSkip.title" = "تخطي";
+"TutorialViewController.btnNext.title" = "التالي";
+"TutorialViewController.btnDone.title" = "تم";
+
+//MARK: LoginViewController
+"LoginViewController.lblLogin.text" = "تسجيل دخول";
+"LoginViewController.lblPhoneNo.text" = "البريد الالكتروني";
+"LoginViewController.txtPhoneNo.placeholder" = " أدخل البريد الالكتروني";
+"LoginViewController.lblPassword.text" = "كلمة المرور";
+"LoginViewController.txtPassword.placeholder" = "أدخل كلمة المرور";
+"LoginViewController.btnLogin.title" = "تسجيل دخول";
+"LoginViewController.btnPassword.title" = "هل نسيت كلمة المرور؟";
+"LoginViewController.lblNewAccount.text" = "ليس لديك حساب؟";
+"LoginViewController.btnSignUp.title" = "تسجيل جديد";
+"ForgetPasswordViewController.lblForget.text" = "استرجاع كلمة السر";
+"ForgetPasswordViewController.lblVerfication.text" = "الرجاء مراجعة الايميل بعد الارسال سيصلك كود التحقيق";
+"ForgetPasswordViewController.btnSend.text" = "ارسال";
+
+//MARK: SignUpViewController
+"SignUpViewController.lblSignUp.text" = "تسجيل جديد";
+"SignUpViewController.lblName.text" = "الاسم";
+"SignUpViewController.txtName.placeholder" = "أدخل الاسم";
+"SignUpViewController.lblEmail.text" = "الايميل";
+"SignUpViewController.txtEmail.placeholder" = "أدخل الايميل";
+"SignUpViewController.lblPhoneNo.text" = "رقم الهاتف";
+"SignUpViewController.txtPhoneNo.placeholder" = "أدخل رقم الهاتف";
+"SignUpViewController.lblPassword.text" = "كلمة المرور";
+"SignUpViewController.txtPassword.placeholder" = "أدخل كلمة المرور";
+"SignUpViewController.btnSignUp.title" = "تسجيل جديد";
+"SignUpViewController.lblHaveAccount.text" = "هل لديك حساب بالفعل؟";
+"SignUpViewController.btnLogin.title" = "تسجيل دخول";
+
+//MARK: HomeViewController
+"NavigationController.lblTitle.text" = "متجر جوري";
+"HomeViewController.lblFeature.text" = "متميز";
+"HomeViewController.lblCollection.text" = " التصنيفات";
+"HomeViewController.lblBestSeller.text" = "أفضل العروضات";
+"HomeViewController.btnSeeAll.title" = "مشاهدة الكل";
+"HomeViewController.lblProductName.text" = "زهور";
+
+//MARK: CategoriesViewController
+"CategoriesViewController.title" = "كل التصنيفات";
+"CategoriesViewController.lblCategoryName.text" = "أزهار";
+"CategoriesViewController.btnView.title" = "عرض";
+
+//MARK: FavoriteViewController
+"FavoriteViewController.title" = "المفضلة";
+"FavoriteViewController.lblFavoritleName.text" = "زهرة التوليب";
+"FavoriteViewController.btnAddToCart.title" = "أضف الى السلة";
+
+//MARK: TopOfferViewController
+"TopOfferViewController.title" = "العروض";
+
+//MARK: CartViewController
+"CartViewController.title" = "سلة المشتريات";
+"CartViewController.btnBuyNow.title" = "اتمام عملية الشراء";
+"CartViewController.alertDeleteProductFromCartMessage.message" = "هل تريد حذف المنتج من السلة؟";
+
+//MARK: CompleteThePurchaseViewController
+"CompleteThePurchaseViewController.title" = "اتمام عملية الشراء";
+"CompleteThePurchaseViewController.lblRecieveFrom.text" = "استلام من: ";
+"CompleteThePurchaseViewController.segmentDelivery.text" = "توصيل ديلفري";
+"CompleteThePurchaseViewController.segmentStore.text" = "المتجر";
+"CompleteThePurchaseViewController.lblName.text" = "الاسم";
+"CompleteThePurchaseViewController.txtName.placehoder" = "أدخل الاسم الكامل";
+"CompleteThePurchaseViewController.lblMobile.text" = "رقم الجوال";
+"CompleteThePurchaseViewController.txtMobile.placehoder" = "أدخل رقم الجوال";
+"CompleteThePurchaseViewController.lblAddress.text" = "العنوان";
+"CompleteThePurchaseViewController.lblNote.text" = "ملاحظة";
+"CompleteThePurchaseViewController.txtNote.text" = "أدخل ملاحظاتك حول الطلب";
+"CompleteThePurchaseViewController.txtAddress.placehoder" = "أدخل عنوان واضح هنا";
+"CompleteThePurchaseViewController.lblDate.text" = "التاريخ";
+"CompleteThePurchaseViewController.btnDate.title" = "حدد تاريخ الاستلام";
+"CompleteThePurchaseViewController.lblTime.text" = "الوقت";
+"CompleteThePurchaseViewController.btnTime.title" = "حدد وقت الاستلام";
+"CompleteThePurchaseViewController.lblPlaceofRecieve.text" = "مكان الاستلام";
+"CompleteThePurchaseViewController.btnPlaceofRecieve.title" = "حدد مكان الاستلام";
+"CompleteThePurchaseViewController.lblShippingPrice.text" = "سعر التوصيل";
+"CompleteThePurchaseViewController.lblTotal.text" = "المجموع الكلي";
+"CompleteThePurchaseViewController.btnConfirmPurchase.title" = "تأكيد الشراء";
+
+//MARK: OrderViewController
+"OrderViewController.title" = "طلباتي";
+
+//MARK: OrderDetailsViewController
+"OrderDetailsViewController.title" = "تفاصيل الطلب";
+"OrderDetailsViewController.lblOrderNo.text" = "رقم الطلب: ";
+"OrderDetailsViewController.lblTotal.text" = "المجموع: ";
+"OrderDetailsViewController.lblOrderStatus.text" = "حالة الطلب: ";
+
+//MARK: ProductViewController
+"ProductViewController.title" = "زهور";
+"ProductViewController.price" = "السعر:  ";
+
+
+//MARK: ProductDetailsController
+"ProductDetailsController.title" = "تفاصيل المنتج";
+"ProductDetailsController.btnAddToCart.title" = "أضف الى السلة";
+"ProductDetailsController.lblSimiler.text" = "منتجات مشابهة";
+
+//MARK: ProfileViewController
+"ProfileViewController.title" = "الملف الشخصي";
+"ProfileViewController.lblAccountSettings.text" = "اعدادات الحساب";
+"ProfileViewController.MenuItem.personalInformation.title" = "المعلومات الشخصية";
+"ProfileViewController.MenuItem.myOrder.title" = " طلباتي";
+"ProfileViewController.MenuItem.favorite.title" = " المفضلة";
+"ProfileViewController.MenuItem.cart.title" = " السلة";
+"ProfileViewController.MenuItem.language.title" = " لغة التطبيق";
+"ProfileViewController.MenuItem.help.title" = "مساعدة";
+"ProfileViewController.MenuItem.contactsUs.title" = " اتصل بنا";
+"ProfileViewController.MenuItem.logout.title" = "تسجيل خروج";
+"ProfileViewController.lblPersonalInfo.text" = "المعلومات الشخصية";
+"ProfileViewController.lblEditPersonalInfo.text" = "تعديل المعلومات الشخصية";
+
+//MARK: ChooseLangaugeViewController
+"ChooseLangaugeViewController.title" = "اختر لغة التطبيق";
+"langApp" = "لغة التطبيق";
+"ar" = "العربية";
+"en" = "الانجليزية";
+"changing_lang" = "تغيير اللغة";
+"changing_lang_message" = "عند الضغط على نعم سوف يتم اغلاق التطبيق ويتوجب عليه فتحه مرة آخرى. هل أنت متأكد؟";
+"yes" = "نعم";
+"No" = "لا";
+//MARK: EditProfileViewController
+"EditProfileViewController.title" = "تعديل الملف الشخصي";
+"EditProfileViewController.lblPicture.text" = "تعديل الصورة الشخصية";
+"EditProfileViewController.lblName.text" = "الاسم";
+"EditProfileViewController.lblEmail.text" = "البريد الالكتروني";
+"EditProfileViewController.lblMobile.text" = "رقم الجوال";
+"EditProfileViewController.lblAddress.text" = "العنوان";
+"EditProfileViewController.lblPassword.text" = "كلمة المرور";
+"EditProfileViewController.btnChange.title" = "تغيير";
+"EditProfileViewController.btnSave.title" = "حفظ";
+
+//MARK: ChangePasswordViewController
+"ChangePasswordViewController.title" = "تعديل كلمة المرور";
+"ChangePasswordViewController.lblPassword.text" = "كلمة المرور الجديدة";
+"ChangePasswordViewController.lblHint.text" = "الرجاء ادخال رمز التحقيق الخاص بك الذي تم ارساله على بريدك الالكتروني ومن ثم أدخل كلمة المرور الجديدة";
+"ChangePasswordViewController.lblCode.text" = "رمز التحقيق";
+"ChangePasswordViewController.lblConfirmPassword.text" = "تأكيد كلمة المرور";
+"ChangePasswordViewController.btnCancel.title" = "الغاء";
+"ChangePasswordViewController.btnSave.title" = "اعادة تعيين كلمة المرور";
+
+//MARK: SearchViewController
+"SearchViewController.title" = "البحث";
+
+//MARK: FilterViewController
+"FilterViewController.title" = "فلتر البحث";
+"FilterViewController.btnClear.title" = "مسح الجميع";
+"FilterViewController.lblSort.text" = "ترتيب حسب";
+"FilterViewController.lblOffer.text" = "أفضل العروض";
+"FilterViewController.lblPriceLow.text" = "السعر";
+"FilterViewController.lblPriceHigh.text" = "السعر (الأعلى الى الأقل)";
+"FilterViewController.lblCategories.text" = "التصنيفات";
+"FilterViewController.btnDone.title" = "تم";

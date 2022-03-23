@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCollectionViewCell" id="gTV-IL-0wX" customClass="ProductCollectionViewCell" customModule="JouryStore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="142" height="202"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="142" height="202"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vvE-X8-AxK">
+                        <rect key="frame" x="0.0" y="0.0" width="142" height="202"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="mMN-EU-WMk">
+                                <rect key="frame" x="0.0" y="0.0" width="142" height="202"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_test_product" translatesAutoresizingMaskIntoConstraints="NO" id="3SR-Xh-2MX">
+                                        <rect key="frame" x="0.0" y="0.0" width="142" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="Cag-B5-ob9"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Ii0-0v-ydn">
+                                        <rect key="frame" x="0.0" y="160" width="142" height="42"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Flower  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JE1-hd-mTY">
+                                                <rect key="frame" x="8" y="0.0" width="53.5" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="localized" value="HomeViewController.lblProductName.text"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="jcN-hF-85h">
+                                                <rect key="frame" x="8" y="23" width="102" height="11"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3Y-1x-U3u">
+                                                        <rect key="frame" x="0.0" y="0.0" width="39" height="11"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="localized" value="ProductViewController.price"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 79.90  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifH-fC-tnZ">
+                                                        <rect key="frame" x="41" y="0.0" width="61" height="11"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <directionalEdgeInsets key="directionalLayoutMargins" top="0.0" leading="8" bottom="8" trailing="8"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mMN-EU-WMk" secondAttribute="trailing" id="BbR-uR-WiW"/>
+                            <constraint firstItem="mMN-EU-WMk" firstAttribute="leading" secondItem="vvE-X8-AxK" secondAttribute="leading" id="DWm-lI-CaI"/>
+                            <constraint firstAttribute="bottom" secondItem="mMN-EU-WMk" secondAttribute="bottom" id="bag-fC-3aD"/>
+                            <constraint firstItem="mMN-EU-WMk" firstAttribute="top" secondItem="vvE-X8-AxK" secondAttribute="top" id="tXI-ol-daq"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <integer key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.13"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1x-zW-a79">
+                        <rect key="frame" x="107" y="10" width="25" height="25"/>
+                        <state key="normal" image="ic_favorite"/>
+                        <connections>
+                            <action selector="btnFavorite:" destination="gTV-IL-0wX" eventType="touchUpInside" id="ohC-wA-mLd"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="vvE-X8-AxK" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="5Zp-lS-mXK"/>
+                <constraint firstItem="Z1x-zW-a79" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="6w3-UH-RoW"/>
+                <constraint firstAttribute="trailing" secondItem="Z1x-zW-a79" secondAttribute="trailing" constant="10" id="HRf-vR-P1j"/>
+                <constraint firstItem="vvE-X8-AxK" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Rca-8a-hX1"/>
+                <constraint firstAttribute="trailing" secondItem="vvE-X8-AxK" secondAttribute="trailing" id="c3x-JJ-2eN"/>
+                <constraint firstAttribute="bottom" secondItem="vvE-X8-AxK" secondAttribute="bottom" id="kch-32-4fM"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="142" height="202"/>
+            <connections>
+                <outlet property="btnFavortie" destination="Z1x-zW-a79" id="Zs8-bz-JKE"/>
+                <outlet property="imgProduct" destination="3SR-Xh-2MX" id="nBn-hn-aql"/>
+                <outlet property="lblPrice" destination="ifH-fC-tnZ" id="HNp-vc-Eda"/>
+                <outlet property="lblProductName" destination="JE1-hd-mTY" id="eqx-Ej-m9U"/>
+            </connections>
+            <point key="canvasLocation" x="204.34782608695653" y="151.33928571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_favorite" width="25" height="25"/>
+        <image name="img_test_product" width="171" height="171"/>
+    </resources>
+</document>

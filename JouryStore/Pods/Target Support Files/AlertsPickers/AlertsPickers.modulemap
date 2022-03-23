@@ -1,0 +1,6 @@
+framework module AlertsPickers {
+  umbrella header "AlertsPickers-umbrella.h"
+
+  export *
+  module * { export * }
+}

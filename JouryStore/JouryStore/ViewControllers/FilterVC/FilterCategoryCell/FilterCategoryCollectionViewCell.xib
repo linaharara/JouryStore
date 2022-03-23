@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FilterCategoryCollectionViewCell" customModule="JouryStore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="86"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="240" height="86"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oiv-hP-jIt">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="86"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fpl-Ap-Nyf">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="86"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mother Day" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CsF-s1-t9m">
+                                        <rect key="frame" x="15" y="15" width="210" height="56"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="#512C62"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <directionalEdgeInsets key="directionalLayoutMargins" top="15" leading="15" bottom="15" trailing="15"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="#F9F9F9"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Fpl-Ap-Nyf" secondAttribute="trailing" id="48h-zN-68W"/>
+                            <constraint firstItem="Fpl-Ap-Nyf" firstAttribute="top" secondItem="oiv-hP-jIt" secondAttribute="top" id="YVu-ur-czc"/>
+                            <constraint firstItem="Fpl-Ap-Nyf" firstAttribute="leading" secondItem="oiv-hP-jIt" secondAttribute="leading" id="emv-lC-ad2"/>
+                            <constraint firstAttribute="bottom" secondItem="Fpl-Ap-Nyf" secondAttribute="bottom" id="hfV-h2-JTd"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="oiv-hP-jIt" secondAttribute="trailing" id="6gd-xa-04h"/>
+                <constraint firstAttribute="bottom" secondItem="oiv-hP-jIt" secondAttribute="bottom" id="9pu-A7-qX1"/>
+                <constraint firstItem="oiv-hP-jIt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="JWj-8B-Iko"/>
+                <constraint firstItem="oiv-hP-jIt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="oxJ-dy-2QX"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="240" height="86"/>
+            <connections>
+                <outlet property="lblName" destination="CsF-s1-t9m" id="55p-dW-lgX"/>
+                <outlet property="mainContainerView" destination="oiv-hP-jIt" id="6XP-IY-WaS"/>
+            </connections>
+            <point key="canvasLocation" x="275.36231884057975" y="79.6875"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="#512C62">
+            <color red="0.35600000619888306" green="0.15600000321865082" blue="0.38999998569488525" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#F9F9F9">
+            <color red="0.97600001096725464" green="0.97600001096725464" blue="0.97600001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

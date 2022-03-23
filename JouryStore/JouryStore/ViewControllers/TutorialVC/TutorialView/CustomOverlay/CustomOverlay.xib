@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="aFT-QS-vVz" customClass="CustomOverlay" customModule="JouryStore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="441" height="807"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="llf-eT-Jl1">
+                    <rect key="frame" x="0.0" y="0.0" width="441" height="807"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWS-vR-ovs">
+                            <rect key="frame" x="30" y="15" width="381" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="U8x-lh-uhA"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" title="Skip">
+                                <color key="titleColor" name="#888A37"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="localized" value="TutorialViewController.btnSkip.title"/>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="Vo9-io-W6y">
+                            <rect key="frame" x="30" y="35" width="381" height="732"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fSf-Ls-gPg">
+                                    <rect key="frame" x="30" y="706" width="43" height="6"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_selected" translatesAutoresizingMaskIntoConstraints="NO" id="ExA-5x-hq4">
+                                            <rect key="frame" x="0.0" y="0.0" width="21" height="6"/>
+                                        </imageView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_unselected" translatesAutoresizingMaskIntoConstraints="NO" id="nzk-VB-bDh">
+                                            <rect key="frame" x="26" y="0.0" width="6" height="6"/>
+                                        </imageView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_unselected" translatesAutoresizingMaskIntoConstraints="NO" id="sbl-Ff-iL1">
+                                            <rect key="frame" x="37" y="0.0" width="6" height="6"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="43" id="I4A-x6-UTl"/>
+                                    </constraints>
+                                </stackView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ent-2Q-zlR">
+                                    <rect key="frame" x="296" y="684" width="75" height="28"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                    <inset key="contentEdgeInsets" minX="20" minY="10" maxX="20" maxY="0.0"/>
+                                    <state key="normal" title="Next">
+                                        <color key="titleColor" name="#512C62"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="localized" value="TutorialViewController.btnNext.title"/>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                            </subviews>
+                            <directionalEdgeInsets key="directionalLayoutMargins" top="0.0" leading="30" bottom="20" trailing="10"/>
+                        </stackView>
+                    </subviews>
+                    <directionalEdgeInsets key="directionalLayoutMargins" top="15" leading="30" bottom="40" trailing="30"/>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="llf-eT-Jl1" secondAttribute="trailing" id="Jyz-zr-dt7"/>
+                <constraint firstItem="llf-eT-Jl1" firstAttribute="leading" secondItem="aFT-QS-vVz" secondAttribute="leading" id="Mvw-xq-gLu"/>
+                <constraint firstItem="1Tz-qh-UvS" firstAttribute="bottom" secondItem="llf-eT-Jl1" secondAttribute="bottom" id="Y1X-Pg-Be3"/>
+                <constraint firstItem="llf-eT-Jl1" firstAttribute="top" secondItem="aFT-QS-vVz" secondAttribute="top" id="bzo-GY-hZa"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="1Tz-qh-UvS"/>
+            <connections>
+                <outlet property="buttonContinue" destination="ent-2Q-zlR" id="1kX-Mn-ZfC"/>
+                <outlet property="select" destination="ExA-5x-hq4" id="erH-OD-08M"/>
+                <outlet property="skip" destination="HWS-vR-ovs" id="hgh-wJ-QOw"/>
+                <outlet property="unselect1" destination="nzk-VB-bDh" id="PuP-6U-Rbz"/>
+                <outlet property="unselect2" destination="sbl-Ff-iL1" id="MVj-0A-SVL"/>
+            </connections>
+            <point key="canvasLocation" x="-21.600000000000001" y="-88.605697151424295"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_selected" width="21" height="5"/>
+        <image name="ic_unselected" width="6" height="6"/>
+        <namedColor name="#512C62">
+            <color red="0.35600000619888306" green="0.15600000321865082" blue="0.38999998569488525" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#888A37">
+            <color red="0.5350000262260437" green="0.54600000381469727" blue="0.17000000178813934" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

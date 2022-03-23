@@ -1,0 +1,119 @@
+PODS:
+  - Alamofire (5.0.5)
+  - AlertsPickers (1.2)
+  - DZNEmptyDataSet (1.8.1)
+  - FDTake (3.0.0)
+  - FSPagerView (0.8.2)
+  - IQKeyboardManagerSwift (6.2.1)
+  - PhoneNumberKit (3.3.3):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.3.3)
+    - PhoneNumberKit/UIKit (= 3.3.3)
+  - PhoneNumberKit/PhoneNumberKitCore (3.3.3)
+  - PhoneNumberKit/UIKit (3.3.3):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - Presentr (1.9)
+  - RangeSeekSlider (1.8.0)
+  - SDWebImage (5.6.0):
+    - SDWebImage/Core (= 5.6.0)
+  - SDWebImage/Core (5.6.0)
+  - SVProgressHUD (2.2.5)
+  - SwifterSwift (5.1.0):
+    - SwifterSwift/AppKit (= 5.1.0)
+    - SwifterSwift/CoreGraphics (= 5.1.0)
+    - SwifterSwift/CoreLocation (= 5.1.0)
+    - SwifterSwift/Dispatch (= 5.1.0)
+    - SwifterSwift/Foundation (= 5.1.0)
+    - SwifterSwift/MapKit (= 5.1.0)
+    - SwifterSwift/SceneKit (= 5.1.0)
+    - SwifterSwift/SpriteKit (= 5.1.0)
+    - SwifterSwift/SwiftStdlib (= 5.1.0)
+    - SwifterSwift/UIKit (= 5.1.0)
+  - SwifterSwift/AppKit (5.1.0)
+  - SwifterSwift/CoreGraphics (5.1.0)
+  - SwifterSwift/CoreLocation (5.1.0)
+  - SwifterSwift/Dispatch (5.1.0)
+  - SwifterSwift/Foundation (5.1.0)
+  - SwifterSwift/MapKit (5.1.0)
+  - SwifterSwift/SceneKit (5.1.0)
+  - SwifterSwift/SpriteKit (5.1.0)
+  - SwifterSwift/SwiftStdlib (5.1.0)
+  - SwifterSwift/UIKit (5.1.0)
+  - SwiftPullToRefresh (3.1.1)
+  - SwiftyJSON (5.0.0)
+  - SwiftyOnboard (1.3.8)
+  - "UINavigationBar+Addition (1.3.0)"
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-rc.2)
+  - AlertsPickers (from `https://gitlab.com/mja050/AlertsPickersPod.git`)
+  - DZNEmptyDataSet (from `https://gitlab.com/mja050/dznemptydataset.git`)
+  - FDTake (from `https://gitlab.com/mja050/fdtake.git`)
+  - FSPagerView (= 0.8.2)
+  - IQKeyboardManagerSwift (= 6.2.1)
+  - PhoneNumberKit (= 3.3.3)
+  - Presentr (= 1.9)
+  - RangeSeekSlider (= 1.8.0)
+  - SDWebImage (= 5.6.0)
+  - SVProgressHUD
+  - SwifterSwift (= 5.1.0)
+  - SwiftPullToRefresh
+  - SwiftyJSON (= 5.0.0)
+  - SwiftyOnboard
+  - "UINavigationBar+Addition"
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FSPagerView
+    - IQKeyboardManagerSwift
+    - PhoneNumberKit
+    - Presentr
+    - RangeSeekSlider
+    - SDWebImage
+    - SVProgressHUD
+    - SwifterSwift
+    - SwiftPullToRefresh
+    - SwiftyJSON
+    - SwiftyOnboard
+    - "UINavigationBar+Addition"
+
+EXTERNAL SOURCES:
+  AlertsPickers:
+    :git: https://gitlab.com/mja050/AlertsPickersPod.git
+  DZNEmptyDataSet:
+    :git: https://gitlab.com/mja050/dznemptydataset.git
+  FDTake:
+    :git: https://gitlab.com/mja050/fdtake.git
+
+CHECKOUT OPTIONS:
+  AlertsPickers:
+    :commit: ab07e72debd4dea343770f58b82bc5be75310c3a
+    :git: https://gitlab.com/mja050/AlertsPickersPod.git
+  DZNEmptyDataSet:
+    :commit: 77c8f75892f3337bacfd93039cdd760c666d227a
+    :git: https://gitlab.com/mja050/dznemptydataset.git
+  FDTake:
+    :commit: 84d525859e550e7a5b9dac0800d68cd0e57f8a09
+    :git: https://gitlab.com/mja050/fdtake.git
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  AlertsPickers: 8385b6f1d32f3abbfcca31fa76240d16981be45f
+  DZNEmptyDataSet: b94434220f87d9dda46660eb4f07a424778e93b4
+  FDTake: c3caa7a39f2d9b710a04b1c28657ee16626f7826
+  FSPagerView: 816a18842306973cc7cc6df8a5332272f7815c30
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
+  PhoneNumberKit: 4ce83273551c4d2ae10b7361162f4283dd02835f
+  Presentr: 7078d7eb5d1661ebeaae60c9e42a1e534de1b993
+  RangeSeekSlider: 650b11fa1edcb92e1e0ede797669d98622570fb5
+  SDWebImage: 21b19f56b4226cdfe3aefe4e6848dc43ed129a86
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwifterSwift: a9e8e144832638c2850b43da5feaf9598c6ad65b
+  SwiftPullToRefresh: f61d67439c5b8d66420fe57193cab8c279398e7a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  SwiftyOnboard: de60e90c2af23dd61b01ec0c6a8d0be3370f857b
+  "UINavigationBar+Addition": 433c16a992cfb73c3141b1f7fcaa93169c15cfa0
+
+PODFILE CHECKSUM: e34e79a8a686df99b392efd8fb0b4120d28a622d
+
+COCOAPODS: 1.9.3

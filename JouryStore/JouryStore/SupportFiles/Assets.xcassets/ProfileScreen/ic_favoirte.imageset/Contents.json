@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_favoirte.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

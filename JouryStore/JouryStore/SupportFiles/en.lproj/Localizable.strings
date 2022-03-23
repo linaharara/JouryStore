@@ -1,0 +1,199 @@
+/* 
+  Localizable.strings
+  JouryStore
+
+  Created by Rozan Skaik on 2/7/21.
+  Copyright © 2021 Rozan Skaik. All rights reserved.
+*/
+//MARK: COMMON
+"AddressStore" = "Gaza, khaled bn Al waleed st., Joury store for gift and flowers";
+"Skip" = "Skip";
+"Search" = "Search";
+"Choose Date" = "Choose Date";
+"Choose" = "Choose";
+"Cancel" = "Cancel";
+"OK" = "Ok";
+"ConfirmPassword" = "Please make sure that the password matches";
+"Do you need to logout?" =  "Do you need to logout?";
+"Number of Items" = "Number of Items: ";
+"Alert" = "Alert";
+"Success" = "Success";
+"Done" = "Done";
+"No Data To Show" = "No Data To Show";
+"dateValidation" = "Please select date";
+"timeValidation" = "Please select time";
+"Capture image"                                                                   = "Capture image";
+"ChooseFromLibrary"                                                               = "Choose from Library";
+"ChooseFromPhotoRoll"                                                             = "Choose from Photo Roll";
+"NoSources"                                                                       = "There are no sources available to select a photo";
+"TakePhoto"                                                                       = "Take Photo";
+"Note" = "Note";
+"TextFeildValidation"                                                             = "Sorry, The %@ is required";
+"MobileNumberInvalid"                                                             = "Invalid mobile number";
+"In Progress" = "In Progress";
+"Delivered" = "Delivered";
+"Please Add product to cart before" = "Please Add product to cart before";
+//MARK: TutorialViewController
+"TutorialViewController.lblTitle.text" = "Joury";
+"TutorialViewController.lblDescription.text" = "The e-shopping app is concerned with selling gifts and flowers.";
+"TutorialViewController.lblDescription2.text" = "Shop owners are allowed to display their products.";
+"TutorialViewController.lblDescription3.text" = "Flowers, Gifts,  Delivery Anytime Anywhere.";
+"TutorialViewController.btnSkip.title" = "Skip";
+"TutorialViewController.btnNext.title" = "Next";
+"TutorialViewController.btnDone.title" = "Done";
+
+//MARK: LoginViewController
+"LoginViewController.lblLogin.text" = "LOGIN";
+"LoginViewController.lblPhoneNo.text" = "Email";
+"LoginViewController.txtPhoneNo.placeholder" = "Enter Your Email";
+"LoginViewController.lblPassword.text" = "Password";
+"LoginViewController.txtPassword.placeholder" = "Enter Your Password";
+"LoginViewController.btnLogin.title" = "LOGIN";
+"LoginViewController.btnPassword.title" = "Forget Password?";
+"LoginViewController.lblNewAccount.text" = "Don't have account ?";
+"LoginViewController.btnSignUp.title" = "SIGN UP";
+"ForgetPasswordViewController.lblForget.text" = "Reset Password";
+"ForgetPasswordViewController.lblVerfication.text" = "Please check the email after send to get verfication code";
+"ForgetPasswordViewController.btnSend.text" = "Send";
+
+//MARK: SignUpViewController
+"SignUpViewController.lblSignUp.text" = "SIGN UP";
+"SignUpViewController.lblName.text" = "Name";
+"SignUpViewController.txtName.placeholder" = "Enter Your Name";
+"SignUpViewController.lblEmail.text" = "Email";
+"SignUpViewController.txtEmail.placeholder" = "Enter Your Email";
+"SignUpViewController.lblPhoneNo.text" = "Phone Number";
+"SignUpViewController.txtPhoneNo.placeholder" = "Enter Your Phone";
+"SignUpViewController.lblPassword.text" = "Password";
+"SignUpViewController.txtPassword.placeholder" = "Enter Your Password";
+"SignUpViewController.btnSignUp.title" = "SIGN UP";
+"SignUpViewController.lblHaveAccount.text" = "Already have account ?";
+"SignUpViewController.btnLogin.title" = "LOGIN";
+
+//MARK: HomeViewController
+"NavigationController.lblTitle.text" = "Joury Store";
+"HomeViewController.lblFeature.text" = "Featured";
+"HomeViewController.lblCollection.text" = "Categories";
+"HomeViewController.lblBestSeller.text" = "Best Offers";
+"HomeViewController.btnSeeAll.title" = "See All";
+"HomeViewController.lblProductName.text" = "Flower";
+
+//MARK: CategoriesViewController
+"CategoriesViewController.title" = "All Categories";
+"CategoriesViewController.lblCategoryName.text" = "FLOWER";
+"CategoriesViewController.btnView.title" = "View";
+
+//MARK: FavoriteViewController
+"FavoriteViewController.title" = "Favorite";
+"FavoriteViewController.lblFavoritleName.text" = "Tulip Flower";
+"FavoriteViewController.btnAddToCart.title" = "ADD TO CART";
+
+//MARK: TopOfferViewController
+"TopOfferViewController.title" = "Offers";
+
+//MARK: CartViewController
+"CartViewController.title" = "My Cart";
+"CartViewController.btnBuyNow.title" = "Complete the Purchase";
+"CartViewController.alertDeleteProductFromCartMessage.message" = "Do you want to remove the product from the cart?";
+
+//MARK: CompleteThePurchaseViewController
+"CompleteThePurchaseViewController.title" = "Complete the Purchase";
+"CompleteThePurchaseViewController.lblRecieveFrom.text" = "Receive from: ";
+"CompleteThePurchaseViewController.segmentDelivery.text" = "Delivery";
+"CompleteThePurchaseViewController.segmentStore.text" = "Store";
+"CompleteThePurchaseViewController.lblName.text" = "Name";
+"CompleteThePurchaseViewController.txtName.placehoder" = "Enter your Full Name";
+"CompleteThePurchaseViewController.lblMobile.text" = "Mobile";
+"CompleteThePurchaseViewController.txtMobile.placehoder" = "Enter your Mobile Number";
+"CompleteThePurchaseViewController.lblAddress.text" = "Address";
+"CompleteThePurchaseViewController.lblNote.text" = "Note";
+"CompleteThePurchaseViewController.txtNote.text" = "Enter your note about order";
+"CompleteThePurchaseViewController.txtAddress.placehoder" = "Enter a clear Address";
+"CompleteThePurchaseViewController.lblDate.text" = "Date";
+"CompleteThePurchaseViewController.btnDate.title" = "Select Date";
+"CompleteThePurchaseViewController.lblTime.text" = "Time";
+"CompleteThePurchaseViewController.btnTime.title" = "Select Time";
+"CompleteThePurchaseViewController.lblPlaceofRecieve.text" = "Place of Recieve";
+"CompleteThePurchaseViewController.btnPlaceofRecieve.title" = "Choose the place of recieve";
+"CompleteThePurchaseViewController.lblShippingPrice.text" = "Shipping Price";
+"CompleteThePurchaseViewController.lblTotal.text" = "Total";
+"CompleteThePurchaseViewController.btnConfirmPurchase.title" = "Confirm Purchase";
+
+
+
+
+
+//MARK: OrderViewController
+"OrderViewController.title" = "My Order";
+
+//MARK: OrderDetailsViewController
+"OrderDetailsViewController.title" = "Order Details";
+"OrderDetailsViewController.lblOrderNo.text" = "Order No: ";
+"OrderDetailsViewController.lblTotal.text" = "Total: ";
+"OrderDetailsViewController.lblOrderStatus.text" = "Order Status: ";
+
+//MARK: ProductViewController
+"ProductViewController.title" = "Flower";
+"ProductViewController.price" = "Price: ";
+
+//MARK: ProductDetailsController
+"ProductDetailsController.title" = "Product Details";
+"ProductDetailsController.btnAddToCart.title" = "ADD TO CART";
+"ProductDetailsController.lblSimiler.text" = "Similar Products";
+
+//MARK: ProfileViewController
+"ProfileViewController.title" = "Profile";
+"ProfileViewController.lblAccountSettings.text" = "Account Settings";
+"ProfileViewController.MenuItem.personalInformation.title" = "Personal Information";
+"ProfileViewController.MenuItem.myOrder.title" = " My Order";
+"ProfileViewController.MenuItem.favorite.title" = "Favorite";
+"ProfileViewController.MenuItem.cart.title" = "Cart";
+"ProfileViewController.MenuItem.language.title" = "Language";
+"ProfileViewController.MenuItem.help.title" = "Help";
+"ProfileViewController.MenuItem.contactsUs.title" = "Contact Us";
+"ProfileViewController.MenuItem.logout.title" = "Logout";
+"ProfileViewController.lblPersonalInfo.text" = "Personal Information";
+"ProfileViewController.lblEditPersonalInfo.text" = "Edit Profile";
+
+//MARK: ChooseLangaugeViewController
+"ChooseLangaugeViewController.title" = "Choose Language";
+"langApp" = "App language";
+"ar" = "Arabic";
+"en" = "English";
+"changing_lang" =  "Changing language";
+"changing_lang_message" = "When you press Yes, the app will be closed and it will have to be opened again. Are you sure?";
+"yes" = "Yes";
+"No" = "No";
+
+//MARK: EditProfileViewController
+"EditProfileViewController.title" = "Edit Profile";
+"EditProfileViewController.lblPicture.text" = "Edit Profile Picture";
+"EditProfileViewController.lblName.text" = "Name";
+"EditProfileViewController.lblEmail.text" = "Email";
+"EditProfileViewController.lblMobile.text" = "Mobile Number";
+"EditProfileViewController.lblAddress.text" = "Address";
+"EditProfileViewController.lblPassword.text" = "Password";
+"EditProfileViewController.btnChange.title" = "Change";
+"EditProfileViewController.btnSave.title" = "Save";
+
+//MARK: ChangePasswordViewController
+"ChangePasswordViewController.title" = "Change Password";
+"ChangePasswordViewController.lblHint.text" = "Please enter your verification code that was sent to your email and enter new password";
+"ChangePasswordViewController.lblCode.text" = "Your Code";
+"ChangePasswordViewController.lblPassword.text" = "New Password";
+"ChangePasswordViewController.lblConfirmPassword.text" = "Confirm Password";
+"ChangePasswordViewController.btnCancel.title" = "Cancel";
+"ChangePasswordViewController.btnSave.title" = "Reset Password";
+
+//MARK: SearchViewController
+"SearchViewController.title" = "Search";
+
+//MARK: FilterViewController
+"FilterViewController.title" = "Filter";
+"FilterViewController.btnClear.title" = "Clear All";
+"FilterViewController.lblSort.text" = "SORT";
+"FilterViewController.lblOffer.text" = "Best Offers";
+"FilterViewController.lblPriceLow.text" = "Price";
+"FilterViewController.lblPriceHigh.text" = "Price (High To Low)";
+"FilterViewController.lblCategories.text" = "Categories";
+"FilterViewController.btnDone.title" = "Done";
